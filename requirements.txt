@@ -1,0 +1,1 @@
+pelican; echo markdown; echo fabric; echo beautifulsoup4
