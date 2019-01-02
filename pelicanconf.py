@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'janzeteachesit'
 SITENAME = 'Python Programming for Templeton STEM'
-SITEURL = ''
+SITEURL = 'https://janzeteachesit.github.io/staticsite/'
 
 PATH = 'content'
 
@@ -34,14 +34,14 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#pelicanconf.py - changes for pelican-bootstrap3 - 20190101
+#pelicanconf.py
 PLUGIN_PATHS = ['pelican-plugins']
 MARKUP = ('md', 'ipynb')
 
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
-PLUGIN_PATHS = ['./pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGINS = ['i18n_subsites', 'series', 'tag_cloud', 'liquid_tags.youtube', 'liquid_tags.notebook', 'liquid_tags.include_code', 'render_math', 'pelican-ipynb.markup', 'ipynb.markup', 'tipue_search' ]
 IGNORE_FILES = ['.ipynb_checkpoints', 'post_template' ]
