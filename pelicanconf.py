@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'C. Janze'
+AUTHOR = 'janzeteachesit'
 SITENAME = 'Python Programming for Templeton STEM'
 SITEURL = ''
 
