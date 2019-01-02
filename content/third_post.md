@@ -1,0 +1,1 @@
+﻿Title: Third PostDate: 2019-01-01 17:30Modified: 2019-01-01 17:30Status: publishedCategory: example postsTags: python, markdown, blogSlug: third-postAuthors: janzeteachesitSeries: example-post-seriesSeries_index: 3Summary:  This is the third post of a series of posts. It will show a jupyter notebook.This post contains a jupyter notebook.{% third_post.ipynb %}

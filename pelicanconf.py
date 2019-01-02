@@ -35,15 +35,16 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 
 #pelicanconf.py - changes for pelican-bootstrap3 - 20190101
-
 PLUGIN_PATHS = ['pelican-plugins']
+MARKUP = ('md', 'ipynb')
 
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['./pelican-plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGINS = [
-    'i18n_subsites']
+PLUGINS = ['i18n_subsites', 'series', 'tag_cloud', 'liquid_tags.youtube', 'liquid_tags.notebook', 'liquid_tags.include_code', 'render_math', 'pelican-ipynb.markup', 'ipynb.markup' ]
+IGNORE_FILES = ['.ipynb_checkpoints', 'post_template' ]
 
 I18N_TEMPLATES_LANG = 'en'
+
