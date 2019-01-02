@@ -61,3 +61,13 @@ EXTRA_PATH_METADATA = {
     'extra/custom.js': {'path': 'static/js/custom.js'}
 }
 
+# Paths
+PATH = 'content'
+PAGE_PATHS = ['pages']
+
+# Top menus
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
+
+
+
