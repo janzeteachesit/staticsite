@@ -190,7 +190,9 @@ init_mathjax();
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link href="/static/css/custom.css" rel="stylesheet">
 
 
 
@@ -218,6 +220,11 @@ Python Programming for Templeton STEM            </a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -240,11 +247,19 @@ Python Programming for Templeton STEM            </a>
                 </p>
                 <p>
                     <span class="categories-timestamp"><time datetime="2019-01-01T17:30:00-08:00">Tue 01 January 2019</time></span>
+                    <a href="/fourth-post.html">Fourth Post</a>
+                </p>
+                <p>
+                    <span class="categories-timestamp"><time datetime="2019-01-01T17:30:00-08:00">Tue 01 January 2019</time></span>
                     <a href="/second-post.html">Second Post</a>
                 </p>
                 <p>
                     <span class="categories-timestamp"><time datetime="2019-01-01T17:30:00-08:00">Tue 01 January 2019</time></span>
                     <a href="/third-post.html">Third Post</a>
+                </p>
+                <p>
+                    <span class="categories-timestamp"><time datetime="2019-01-01T17:30:00-08:00">Tue 01 January 2019</time></span>
+                    <a href="/third-post-jupyter-notebook.html">Third Post Jupyter Notebook</a>
                 </p>
         </div>
     </section>
@@ -269,14 +284,20 @@ Python Programming for Templeton STEM            </a>
 <li class="list-group-item">
   <a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
-    <li class="list-group-item tag-4">
+    <li class="list-group-item tag-1">
+      <a href="/tag/python.html">python</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="/tag/markdown.html">markdown</a>
+    </li>
+    <li class="list-group-item tag-1">
       <a href="/tag/blog.html">blog</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="/tag/markdown.html">markdown</a>
+      <a href="/tag/pelican.html">pelican</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="/tag/python.html">python</a>
+      <a href="/tag/tables.html">tables</a>
     </li>
   </ul>
 </li>
@@ -329,6 +350,7 @@ Python Programming for Templeton STEM            </a>
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="/theme/js/respond.min.js"></script>
 
+    <script src="/static/js/custom.js"></script>
 
 
 <script type="text/javascript">
