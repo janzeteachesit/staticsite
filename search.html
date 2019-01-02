@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Python Programming for Templeton STEM</title>
+    <title>Search - Python Programming for Templeton STEM
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -173,7 +174,7 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="">
+
         <meta name="author" content="janzeteachesit" />
 
     <!-- Open Graph tags -->
@@ -238,42 +239,7 @@ Python Programming for Templeton STEM            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="/first-post.html">First Post - Part 1</a></h2>
-                <div class="summary"><p>This is the first post of a series of demonstration posts.</p>
-                    <a class="btn btn-default btn-xs" href="/first-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/fourth-post.html">Fourth Post</a></h2>
-                <div class="summary"><p>This is the fourth post of a series of posts. It will demonstrate tables.</p>
-                    <a class="btn btn-default btn-xs" href="/fourth-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/second-post.html">Second Post</a></h2>
-                <div class="summary"><p>This is the second post of a series of posts. It will show series and an embedded youtube video.</p>
-                    <a class="btn btn-default btn-xs" href="/second-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/third-post.html">Third Post</a></h2>
-                <div class="summary"><p>This is the third post of a series of posts. It will show a jupyter notebook.</p>
-                    <a class="btn btn-default btn-xs" href="/third-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/third-post-jupyter-notebook.html">Third Post Jupyter Notebook</a></h2>
-                <div class="summary"><p>This is the third post of a series of posts. It will show a jupyter notebook.</p>
-                    <a class="btn btn-default btn-xs" href="/third-post-jupyter-notebook.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -378,5 +344,17 @@ jQuery(document).ready(function($) {
 });
 });
 </script>
+    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>
